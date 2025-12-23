@@ -83,3 +83,27 @@ h2{
     background-color: var(--green);
     scale: 105%;
 }
+/*Let add some media queries*/
+
+@media(max-width:375px){
+    .container{
+        width: 21rem;
+        height: 45rem;
+    }
+    h1{
+      text-align: center;
+    }
+    .picture{
+        width: 8.5rem;
+         height: 8.5rem;
+    }
+}
+@media(max-width:320px){
+    .container{
+        width: 18rem;
+    }
+    .picture{
+        height: 8rem;
+        width: 8rem;
+    }
+}
