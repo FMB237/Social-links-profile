@@ -92,7 +92,7 @@ h2{
     background-color: var(--Grey700);
 }
 .Links a.active{
-    background-color: darkblue;
+    background-color: rgb(3, 3, 59);
 }
 .Links a.active:hover{
     filter: brightness(1.3);
